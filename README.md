@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Repo]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Project Repo](https://github.com/omarmohy98/Elzero-Gallery)
+- Live Site URL: [Live Site](https://elzero-gallery.onrender.com/)
 
 ## My process
 
