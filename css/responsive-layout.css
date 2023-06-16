@@ -1,0 +1,310 @@
+/* Small Screen */
+@media (max-width: 767px) {
+    h2 {
+        grid-column: 6 / 11;
+    }
+
+    nav {
+        grid-column: 1 / 13;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .other-links {
+        width: 100%;
+        grid-column-start: 1;
+        flex-flow: row wrap;
+    }
+
+    .other-links div {
+        width: 100%;
+    }
+
+    .other-links img {
+        display: none;
+    }
+
+    .massage {
+        width: 90%;
+        text-align: center;
+    }
+
+    .massage p {
+        width: 100%;
+    }
+
+    .welcome img {
+        display: none;
+    }
+
+    .article-content {
+        width: 100%;
+    }
+
+    .gallery-image-container {
+        width: 100%;
+    }
+
+    .feature-card {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .member-card {
+        width: 90%;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    .skills-container img {
+        display: none;
+    }
+
+    .how-details-cards {
+        width: 100%;
+    }
+
+    .how-container-details>img {
+        width: 100%;
+        margin: 25px auto;
+    }
+
+    .events-container img {
+        display: none;
+    }
+
+    .schedule {
+        width: 100%;
+    }
+
+    .events-form {
+        width: 90%;
+    }
+
+    .events-form input[type="email"] {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .events-form input[type="submit"] {
+        width: 100%;
+    }
+
+    .timer {
+        width: 90%;
+    }
+
+    .plan-card {
+        width: 100%;
+    }
+
+    .plan-card:nth-child(2) {
+        transform: translateY(0);
+    }
+
+    .video-list {
+        width: 100%;
+
+    }
+
+    .video-play {
+        width: 100%;
+    }
+
+    .stat-card {
+        width: 100%;
+    }
+
+    .left-section {
+        width: 100%;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+
+    .right-section form {
+        width: 100%;
+    }
+
+    .w-25 {
+        width: 100%;
+    }
+}
+
+/* Medium Screen */
+@media (min-width: 992px) {
+    h2 {
+        grid-column: 2 / 4;
+    }
+
+    nav {
+        grid-column: 5 / 12;
+        justify-content: flex-end;
+    }
+
+    .other-links {
+        width: 100%;
+        grid-column-start: 1;
+        flex-flow: initial initial;
+    }
+
+    .other-links div {
+        width: initial;
+    }
+
+    .other-links img {
+        display: inline;
+    }
+
+    .massage {
+        width: 45%;
+    }
+
+    .massage p {
+        width: 80%;
+    }
+
+    .welcome img {
+        display: initial;
+        width: 45%;
+    }
+
+    .article-content {
+        width: calc(33% - 30px);
+    }
+
+    .gallery-image-container {
+        width: calc(33% - 10px);
+    }
+
+    .feature-card {
+        width: calc(33% - 20px);
+    }
+
+    .card {
+        width: calc(50% - 20px);
+    }
+
+    .member-card {
+        width: 28%;
+    }
+
+    .service-card {
+        width: calc(33% - 30px);
+    }
+
+    .skills-container img {
+        display: initial;
+    }
+
+    .how-details-cards {
+        width: 45%;
+    }
+
+    .how-container-details>img {
+        width: 40%;
+        margin: 25px auto;
+    }
+
+    .events-container img {
+        width: 35%;
+        display: initial;
+    }
+
+    .schedule {
+        width: 50%;
+    }
+
+    .events-form {
+        width: 50%;
+    }
+
+    .events-form input[type="email"] {
+        width: 70%;
+        margin-bottom: 0;
+    }
+
+    .events-form input[type="submit"] {
+        width: 20%;
+    }
+
+    .timer {
+        width: 70%;
+    }
+
+    .plan-card {
+        width: calc(33% - 20px);
+    }
+
+    .plan-card:nth-child(2) {
+        transform: translateY(-25px);
+    }
+
+    .video-list {
+        width: 25%;
+
+    }
+
+    .video-play {
+        width: 75%;
+    }
+
+    .stat-card {
+        width: calc(25% - 30px);
+    }
+
+    .left-section {
+        width: 50%;
+    }
+
+    .right-section {
+        width: 50%;
+    }
+
+    .right-section form {
+        width: 70%;
+    }
+
+    .w-25 {
+        width: 20%;
+    }
+}
+
+/* Large screen */
+@media (min-width: 1200px) {
+    h2 {
+        grid-column: 2 / 3;
+    }
+
+    nav {
+        grid-column: 6 / 12;
+        justify-content: flex-end;
+    }
+
+    .massage {
+        width: 40%;
+    }
+
+    .welcome img {
+        display: initial;
+        width: 30%;
+    }
+
+    .article-content {
+        width: calc(25% - 30px);
+    }
+
+    .card {
+        width: calc(33% - 20px);
+    }
+
+    .member-card {
+        width: 28%;
+    }
+}
